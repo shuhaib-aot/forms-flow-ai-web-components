@@ -7,7 +7,7 @@ import { getFormUrl } from "../apiManager/services/formatterServices";
 const App =({src})=>{
     const [url ,setUrl] =useState('');
     useEffect(()=>{
-        const newUrl = document.querySelector('react-wc').getAttribute('url');
+        const newUrl = document.querySelector('formsflow-wc').getAttribute('url');
         setUrl(newUrl);
     },[src])
    const handleSubmit = (data)=>{

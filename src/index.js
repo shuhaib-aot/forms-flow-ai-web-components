@@ -17,4 +17,4 @@ index.propTypes = {
   url: PropTypes.string.isRequired,
 };
 
-customElements.define("react-wc", reactToWebComponent(index, React, ReactDOM));
+customElements.define("formsflow-wc", reactToWebComponent(index, React, ReactDOM));
